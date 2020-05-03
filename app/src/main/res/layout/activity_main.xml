@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_height="match_parent">
+
+
+    <Button
+        android:id="@+id/bSkip"
+        android:layout_width="59dp"
+        android:layout_height="35dp"
+        android:layout_gravity="right"
+        android:background="#A4AFA8A8"
+        android:text="SKIP"
+        android:textColor="#F3F1F1" />
+
+
+    <ImageView
+        android:id="@+id/TEXT"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="100dp"
+        app:srcCompat="@drawable/picture" />
+
+    <ImageView
+        android:id="@+id/BG"
+        android:layout_width="wrap_content"
+        android:layout_height="385dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="-80dp"
+        app:srcCompat="@drawable/picture3" />
+
+
+</LinearLayout>

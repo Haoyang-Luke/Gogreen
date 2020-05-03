@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_bg"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/child_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp">
+
+            <ImageView
+                android:id="@+id/IV_SSSSSS"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/bateries" />
+
+
+            <TextView
+                android:id="@+id/tv_child"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bateries"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/IV_SSSSSS"
+                android:scrollbarSize="60sp" />
+
+            <TextView
+                android:id="@+id/tv_childpoint"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_below="@id/tv_child"
+                android:layout_marginTop="19dp"
+                android:text="5 points"
+                android:layout_toRightOf="@id/IV_SSSSSS"/>
+
+
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text="add"
+                android:textSize="5sp"
+                android:layout_marginTop="70dp"
+                android:layout_marginStart="300dp"
+                android:id="@+id/recycle_sure"/>
+
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

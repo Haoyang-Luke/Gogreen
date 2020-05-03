@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00796b</color>
+    <color name="colorPrimaryDark">#00695C</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorSnow">#FFFAFA</color>
+    <color name="colorblack">#000000</color>
+    <color name="bg1">#42CFBE</color>
+    <color name="bg2">#57B1CC</color>
+    <color name="bg3">#B888E5</color>
+    <color name="bg4">#F695A8</color>
+    <color name="bg5">#F9D461</color>
+    <color name="back">#FFFAFA</color>
+    <color name="place">#8B8682</color>
+    <color name="word">#9370DB</color>
+    <color name = "dividerColor">#1F000000</color>
+    <color name = "lightskyblue">#87CEFA</color>
+
+</resources>

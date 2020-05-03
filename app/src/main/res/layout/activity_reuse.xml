@@ -1,0 +1,315 @@
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent">
+
+
+    <TextView
+
+        android:id="@+id/item3"
+
+        android:layout_width="97dp"
+
+        android:layout_height="64dp"
+
+        android:layout_marginStart="273dp"
+
+        android:layout_marginTop="194dp"
+
+        android:layout_marginEnd="41dp"
+
+        android:layout_marginBottom="473dp"
+
+        android:background="#FFFFFF"
+        android:text=""
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+
+        android:id="@+id/reuseHeader"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="140dp"
+
+        android:layout_marginTop="83dp"
+
+        android:layout_marginEnd="148dp"
+
+        android:layout_marginBottom="567dp"
+        android:text="@string/app_Reuse"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColor="#241010"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+
+        android:id="@+id/recentlyReused"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="29dp"
+
+        android:layout_marginTop="152dp"
+
+        android:layout_marginEnd="166dp"
+
+        android:layout_marginBottom="555dp"
+        android:text="@string/app_Recently_reused"
+        android:textColor="#0E0000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+
+        android:id="@+id/item2"
+
+        android:layout_width="97dp"
+
+        android:layout_height="64dp"
+
+        android:layout_marginStart="157dp"
+
+        android:layout_marginTop="194dp"
+
+        android:layout_marginEnd="157dp"
+
+        android:layout_marginBottom="473dp"
+
+        android:background="#FFFFFF"
+        android:text=""
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+
+        android:id="@+id/item1"
+
+        android:layout_width="97dp"
+
+        android:layout_height="64dp"
+
+        android:layout_marginStart="43dp"
+
+        android:layout_marginTop="194dp"
+
+        android:layout_marginEnd="271dp"
+
+        android:layout_marginBottom="473dp"
+
+        android:background="#FFFFFF"
+        android:text=""
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+
+        android:id="@+id/search"
+
+        android:layout_width="136dp"
+
+        android:layout_height="27dp"
+
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="281dp"
+        android:layout_marginEnd="246dp"
+        android:layout_marginBottom="423dp"
+        android:text="@string/app_Add_an_item"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageButton
+
+        android:id="@+id/imageButtonReuseItem"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="331dp"
+        android:layout_marginTop="322dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="358dp"
+        android:contentDescription="@string/app_Plus"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_input_add" />
+
+
+    <ImageButton
+
+        android:id="@+id/imageButtonAddNew"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="331dp"
+        android:layout_marginTop="493dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="187dp"
+        android:contentDescription="@string/app_Plus"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_input_add" />
+
+
+    <TextView
+
+        android:id="@+id/addNew"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="465dp"
+        android:layout_marginEnd="188dp"
+        android:layout_marginBottom="242dp"
+        android:text="@string/app_Add_new_item"
+        android:textColor="#0E0000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <EditText
+
+        android:id="@+id/typeHere2"
+
+        android:layout_width="284dp"
+
+        android:layout_height="35dp"
+
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="501dp"
+        android:layout_marginEnd="103dp"
+        android:layout_marginBottom="195dp"
+        android:background="#2CA09D9D"
+        android:hint="@string/app_Start_typing"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+
+        android:id="@+id/points"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="100dp"
+
+        android:layout_marginTop="48dp"
+
+        android:layout_marginEnd="24dp"
+
+
+        android:text="@string/app_Points"
+
+        app:layout_constraintBottom_toBottomOf="@+id/reuseHeader"
+
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.914"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Spinner
+
+        android:id="@+id/spinner"
+
+        android:layout_width="286dp"
+
+        android:layout_height="50dp"
+
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="322dp"
+        android:layout_marginEnd="99dp"
+        android:layout_marginBottom="359dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/editButton"
+        android:layout_width="55dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="332dp"
+        android:layout_marginTop="391dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="289dp"
+        android:tooltipText="Click to edit today's reused items"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_edit" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="186dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="571dp"
+        android:layout_marginEnd="199dp"
+        android:layout_marginBottom="102dp"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
